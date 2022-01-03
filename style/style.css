@@ -84,7 +84,7 @@ nav a {
 .me-image {
     border: solid palevioletred 2px;
     border-radius: 50%;
-    background: url(/assets/image/дляполины.png);
+    background: url(https://raw.githubusercontent.com/Tirabyrius/rsschool-cv/gh-pages/assets/image/дляполины.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
