@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/06964de45f.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About me</a>
+                </li>
+                <li><a href="#skills">My skills</a></li>
+                <li> <a href="#code">Code style</a></li>
+                <li><a href="#projects">My projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="sidebar-left">
+            <div class="me hr">
+                <div class="me-image"></div>
+                <h1 class="hr">Voroncova Polina</h1>
+                <h2>Junior developer</h2>
+            </div>
+            <div class="contakt hr block">
+                <h2>Contact</h2>
+                <ul>
+                    <li><b>GitHub:</b>@tirabyrius</li>
+                    <li><b>Discord:</b> #0659</li>
+                    <li><b>mail:</b> tirabyrius@gmail.com</li>
+                </ul>
+            </div>
+            <div class="Education">
+                <h2>Education</h2>
+                <ul>
+                    <li>UKSIVT - 2017 - 2021</li>
+                    <li>RS School Stage #0 - 2021</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar-rigth">
+            <div class="about" id="about">
+                <p>I work in a web studio as a junior developer, mainly engaged in website maintenance. I want to get more interesting tasks.</p>
+            </div>
+            <div class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Dart</li>
+                    <li>Flutter</li>
+                    <li>Git</li>
+                    <li>English - A2</li>
+                </ul>
+            </div>
+            <div class="code-example" id="code">
+                <h2>My code style</h2>
+                <pre>
+                    <code>
+                <span class="coral">function</span> <span class="orange">divisors</span> (<span class="orange">integer</span>) {
+                <span class="coral">let</span> <span class="orange">result</span>=[];
+                <span class="coral">for</span>(let <span class="orange">i</span>=<span class="orange">2</span>;<span class="blue">i</span>!=<span class="blue">integer</span>;<span class="blue">i</span>++){
+                    <span class="coral">if</span> (<span class="blue">integer</span>%<span class="blue">i</span>==<span class="orange">0</span>)
+                    <span class="blue">result</span>.<span class="blue">push</span>(<span class="blue">i</span>);
+                     }
+                    <span class="coral">if</span>(<span class="blue">result</span>.<span class="blue">length</span>==0)
+                    <span class="coral">return</span> (<span class="blue">integer</span>+ " is prime"); else
+                    <span class="coral"> return</span> <span class="blue">result</span>;
+                }; 
+                    </code>
+                </pre>
+            </div>
+            <div class="project-info" id="projects">
+                <h2>My projects</h2>
+                <div class="projects">
+                    <div class="project">
+                        <a href="https://github.com/Tirabyrius/rsschool-cv/tree/rsschool-cv-html" target="_blank">
+                            <img src="/assets/image/cv.png" alt="cv project">
+                            <h3>My CV project</h3>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="https://github.com/Tirabyrius" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://rs.school/">2022 - RS School</a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
